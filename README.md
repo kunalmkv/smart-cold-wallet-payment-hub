@@ -21,7 +21,7 @@ A secure blockchain payment system enabling cold wallet users to conduct frequen
 
 ## Table of Contents 📚
 
-- [Prerequisites] (#prerequisites)
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Services](#services)
