@@ -7,7 +7,7 @@ A secure blockchain payment system enabling cold wallet users to conduct frequen
 [![Solidity](https://img.shields.io/badge/Solidity-^0.8.0-green)](https://soliditylang.org)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen)](https://nodejs.org)
 
-👉 click to see Technical Details:   [npmjs/flowbatcher](https://www.npmjs.com/package/flowbatcher/v/1.0.3)
+👉 click to see Technical Details:   [Google Doc](https://docs.google.com/document/d/155oQkt5WcRJ57RKF4jdkEsh8ABcFAVg_VDo9B8x3Nbs/edit?pli=1&tab=t.0)
 ## Key Features ✨
 - **Cold Wallet Security** - Private keys never leave offline storage
 - **Delegated Spending** - Hot wallets handle transactions within policy limits
@@ -18,16 +18,17 @@ A secure blockchain payment system enabling cold wallet users to conduct frequen
 ## Architecture Overview 🏗️
 ![flowBatcher Image](src/images/dfdColdWALLET.png)
 
-```text
+
 ## Table of Contents 📚
-- [Prerequisites](#prerequisites-)
-- [Installation](#installation-)
-- [Configuration](#configuration-)
-- [Services](#services-)
-- [Testing](#testing-)
-- [Deployment](#deployment-)
-- [Contributing](#contributing-)
-- [License](#license-)
+
+- [Prerequisites] (#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Services](#services)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Prerequisites 🛠️
 - Node.js 18.x
@@ -38,6 +39,11 @@ A secure blockchain payment system enabling cold wallet users to conduct frequen
 - Git 2.35+
 
 ## Installation ⚙️
+```
+## Install dependencies
+```plaintext
+npm install
+make install-deps
 ```
 
 ```text
@@ -101,25 +107,14 @@ smart-cold-wallet-payment-hub/
 │   ├── deploy-contracts.sh
 │   └── init-sidechain.sh
 │
-├── docker/
-│   ├── opbnb-node.Dockerfile
-│   └── cosmos-node.Dockerfile
-│
 ├── docs/
 │   ├── ARCHITECTURE.md
 │   └── WORKFLOWS.md
 │
-├── .env.example
+├── .env
 ├── package.json
-├── docker-compose.yml
 └── README.md
 
-```
-
-## Install dependencies
-```plaintext
-npm install
-make install-deps
 ```
 
 ## Compile contracts
